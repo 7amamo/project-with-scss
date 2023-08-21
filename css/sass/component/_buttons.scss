@@ -1,0 +1,17 @@
+.main-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2494c;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 5px;
+    user-select: none;
+    width: 100px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}

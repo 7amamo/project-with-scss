@@ -1,0 +1,49 @@
+
+
+
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    // @include breakpoints(small);
+    @media (max-width: 767px) {
+        &{
+            max-width: 100%;
+        }
+    }
+    @media (max-width: 991px) {
+        &{
+            max-width: 100%;
+        }
+    }
+    @media (min-width: 992px) and (max-width: 1199px) {
+        &{
+            max-width: 100%;
+        }
+    }
+
+}
+
+.boxs {
+    &.three{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+        gap: 40px;
+    }
+    &.five{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+        gap: 20px;
+    }
+}
+
+.three{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 40px;
+}
